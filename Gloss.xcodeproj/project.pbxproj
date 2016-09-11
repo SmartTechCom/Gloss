@@ -66,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E751511D85373B00F081B2 /* Gloss.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gloss.podspec; sourceTree = "<group>"; };
+		07E751521D8537C800F081B2 /* autobuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autobuild.sh; sourceTree = "<group>"; };
 		2F3A83281C66CF3C00ECC4B8 /* Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/Decoder.swift; sourceTree = SOURCE_ROOT; };
 		2F3A832A1C66CF3C00ECC4B8 /* Encoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/Encoder.swift; sourceTree = SOURCE_ROOT; };
 		2F3A832B1C66CF3C00ECC4B8 /* Gloss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gloss.h; path = Sources/Gloss.h; sourceTree = SOURCE_ROOT; };
@@ -175,6 +177,8 @@
 		DC39BF571B8A7AD200088CE0 = {
 			isa = PBXGroup;
 			children = (
+				07E751511D85373B00F081B2 /* Gloss.podspec */,
+				07E751521D8537C800F081B2 /* autobuild.sh */,
 				DC39BF631B8A7AD200088CE0 /* Gloss */,
 				2FA4CE9B1C947E3000EB8AB8 /* GlossTests */,
 				DC39BF621B8A7AD200088CE0 /* Products */,
@@ -796,6 +800,7 @@
 				2FA4CEA31C947E3000EB8AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A04168FC1C0DF69A00269A6A /* Build configuration list for PBXNativeTarget "Gloss tvOS" */ = {
 			isa = XCConfigurationList;
